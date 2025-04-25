@@ -1,0 +1,89 @@
+/* Grid 基本例 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .grid-item {
+    background-color: #34a853;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  /* Grid ギャラリー */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .gallery-item {
+    background-color: #ea4335;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Grid ダッシュボード */
+  .dashboard-grid {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 1rem;
+    height: 200px;
+  }
+  
+  .dashboard-item {
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #fbbc05;
+  }
+  
+  .main {
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  /* Grid エリア */
+  .grid-areas {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "main main";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr;
+    grid-gap: 1rem;
+    height: 200px;
+  }
+  
+  .area-header {
+    grid-area: header;
+    background-color: #fbbc05;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .area-main {
+    grid-area: main;
+    background-color: #4285f4;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }

@@ -3,7 +3,8 @@ import { Header, Footer } from './components/Layout';
 import { BasicTags, ListTags, FormTags, SectionTags } from './components/Demo';
 import './styles/main.css';
 import './styles/tags.css';
-
+import './styles/flexbox.css'; 
+import './styles/grid.css'; 
 function App() {
   return (
     <div className="app-container">

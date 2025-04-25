@@ -130,3 +130,20 @@
     color: #90cdf4;
     text-decoration: underline;
   }
+
+
+.layout-section {
+    margin-top: 3rem;
+    border-top: 1px solid var(--medium-gray);
+    padding-top: 2rem;
+  }
+  
+  .layout-section > h2 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .layout-section > p {
+    margin-bottom: 2rem;
+  }
