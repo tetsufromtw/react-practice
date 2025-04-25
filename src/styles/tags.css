@@ -1,0 +1,212 @@
+.demo-section {
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+  }
+  
+  .demo-section h2 {
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--medium-gray);
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+  .tag-demo {
+    border: 1px solid var(--medium-gray);
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .tag-demo:hover {
+    box-shadow: var(--shadow-md);
+  }
+  
+  .tag-demo h3 {
+    background-color: var(--light-gray);
+    padding: 1rem 1.5rem;
+    margin: 0;
+    border-bottom: 1px solid var(--medium-gray);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tag-demo h3::before {
+    content: '<>';
+    margin-right: 0.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-family: monospace;
+  }
+  
+  .tag-demo .description {
+    padding: 0.75rem 1.5rem;
+    margin: 0;
+    background-color: #f9f9f9;
+    font-style: italic;
+    border-bottom: 1px solid var(--medium-gray);
+    color: var(--dark-gray);
+  }
+  
+  .demo-preview {
+    padding: 2rem 1.5rem;
+    background-color: var(--white);
+  }
+  
+  .demo-code {
+    background-color: #282c34;
+    color: #abb2bf;
+    padding: 1rem 1.5rem;
+    overflow-x: auto;
+    border-top: 1px solid #1e2127;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .demo-code pre {
+    margin: 0;
+  }
+  
+  .highlight {
+    background-color: rgba(255, 220, 0, 0.3);
+    padding: 0 0.25rem;
+    border-radius: 3px;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .input-group label {
+    font-weight: 500;
+  }
+  
+  input[type="text"], 
+  input[type="password"], 
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--medium-gray);
+    border-radius: 4px;
+    font-family: var(--font-main);
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.2);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #3367d6;
+  }
+  
+  button:disabled {
+    background-color: var(--medium-gray);
+    cursor: not-allowed;
+  }
+  
+  .headings-demo h1,
+  .headings-demo h2,
+  .headings-demo h3,
+  .headings-demo h4,
+  .headings-demo h5,
+  .headings-demo h6 {
+    margin: 0.5rem 0;
+  }
+  
+  .container {
+    background-color: #e8f0fe;
+    padding: 1rem;
+    border-radius: 4px;
+    border-left: 3px solid var(--primary-color);
+  }
+  
+  .content-section {
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .content-section h2 {
+    margin-top: 0;
+    color: var(--primary-color);
+    border-bottom: none;
+  }
+  
+  .blog-post {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid var(--medium-gray);
+    border-radius: 4px;
+  }
+  
+  .blog-post h2 {
+    margin-top: 0;
+    color: var(--text-color);
+    border-bottom: none;
+  }
+  
+  .page-header {
+    padding: 1rem;
+    background-color: #e8f0fe;
+    border-radius: 4px;
+  }
+  
+  .page-header h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+  }
+  
+  .page-footer {
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .main-nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+  }
+  
+  .main-nav a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,132 @@
+:root {
+    --primary-color: #4285f4;
+    --secondary-color: #34a853;
+    --accent-color: #ea4335;
+    --text-color: #333333;
+    --light-gray: #f8f9fa;
+    --medium-gray: #e0e0e0;
+    --dark-gray: #757575;
+    --white: #ffffff;
+    --font-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+  }
+  
+  body {
+    font-family: var(--font-main);
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+  }
+  
+  .app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .app-header {
+    background: linear-gradient(135deg, var(--primary-color), #5b9dff);
+    color: var(--white);
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow-md);
+  }
+  
+  .app-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  
+  .app-header p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 1rem auto 0;
+    opacity: 0.9;
+  }
+  
+  main {
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    padding: 2rem;
+    margin: 0 1rem 2rem;
+  }
+  
+  .intro-section {
+    background-color: var(--light-gray);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--primary-color);
+  }
+  
+  .intro-section h2 {
+    margin-top: 0;
+    color: var(--primary-color);
+  }
+  
+  .intro-section ul {
+    margin-bottom: 0;
+  }
+  
+  .intro-section code {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+  
+  .page-nav {
+    margin-bottom: 2rem;
+  }
+  
+  .page-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .page-nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--light-gray);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .page-nav a:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+  }
+  
+  .app-footer {
+    background-color: #2d3748;
+    color: var(--white);
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .app-footer a {
+    color: #63b3ed;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .app-footer a:hover {
+    color: #90cdf4;
+    text-decoration: underline;
+  }
